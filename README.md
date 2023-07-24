@@ -43,7 +43,7 @@ Contributors' names and contact info
 
 ## License
 
-This project is not licensed at this time.
+Apache License 2.0
 
 ## Acknowledgments
 
