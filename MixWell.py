@@ -86,7 +86,7 @@ def search_button_clicked():
             key_note = notes[key]
             
             # Update the label with the track information
-            result_label.config(text=f"Track: {track_name} by {artists}\nBPM: {bpm}\nKey: {key}\nEnergy: {energy}\nGenres: {genres}")
+            result_label.config(text=f"Track: {track_name} by {artists}\nBPM: {bpm}\nKey: {key_note}\nEnergy: {energy}\nGenres: {genres}")
 
             # Fetch and display recommended tracks
             recommended_tracks = get_recommended_tracks(bpm, key, energy, artist_id)
